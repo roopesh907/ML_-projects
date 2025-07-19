@@ -1,50 +1,55 @@
-# student-score-predictor
->A data-driven project analyzing factors affecting student performance and predicting scores using a trained regression model. Ideal for demonstrating applied ML and data visualization skills.
-
-
-
-
 # 🎯 Student Score Predictor
 
-A machine learning project that predicts student scores based on their study hours, attendance, sleep, and distraction level. Built using Python, pandas, scikit-learn, and visualization tools.
+A simple machine learning project that predicts student marks based on study hours using Linear Regression.
 
----
+## 📌 Project Description
 
-## 📌 Features
-- Predicts score from multiple input features
-- Exploratory Data Analysis with heatmaps
-- Trained a Linear Regression model
-- Evaluated model with R² score and MSE
-- Saved model using pickle (.pkl)
+This project is built using Python and scikit-learn. It demonstrates how to train a linear regression model to predict student scores based on the number of hours studied. The model is trained and tested on a sample dataset with high accuracy.
 
----
+## 🚀 Features
 
-## 🔍 Dataset
-The dataset contains:
-- `Hours_Studied`
-- `Attendance`
-- `Sleep_Hours`
-- `Distraction_Level` (categorical)
-- `Score` (target)
+- Accepts user input: Study hours
+- Predicts score using a trained `.pkl` model
+- Evaluates model with Mean Squared Error and R² Score
+- Visualizes data and regression line using matplotlib
 
----
+## 📊 Tech Stack
 
-## 📊 Results
-- 📈 **R² Score:** 0.92  
-- 📉 **Mean Squared Error (MSE):** 25.36
-
----
-
-## 💾 Technologies Used
-- Python
-- pandas, numpy
-- seaborn, matplotlib
-- scikit-learn
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
 - Google Colab
 
----
+## 🛠️ How to Run
 
-## 🚀 How to Use
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/student-score-predictor.git
+1. Clone the repo or open the `.ipynb` file in Google Colab
+2. Run all cells step-by-step
+3. Enter custom input to predict score
+4. Evaluate the model metrics at the end
+
+## 📁 Files
+
+- `Student_score_predictor.ipynb` – Main notebook
+- `student_score_model.pkl` – Saved trained model (can be used for deployment)
+
+## 🧠 Model Performance
+
+- **Mean Squared Error (MSE):** 25.37
+- **R² Score:** 0.92
+
+## 📸 Sample Output
+
+> Enter the number of study hours: **9.5**  
+> Predicted Score: **95.1**
+
+## 👨‍💻 Author
+
+- **Roopesh**  
+  Passionate about AI and Machine Learning  
+  [GitHub Profile](https://github.com/roopesh907)
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
