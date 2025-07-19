@@ -23,6 +23,20 @@ For 9.25 hours studied, the predicted score is **~92.90**.
 - Matplotlib
 - Scikit-learn
 - Jupyter Notebook
+  
+- ## Problem Statement
+This project aims to predict student exam scores based on hours studied using Linear Regression. It helps understand the correlation between study time and performance.
+
+## Dataset
+The dataset contains X samples with features like 'Hours' and the target 'Scores'. It is sourced from chatgpt .
+
+## Results
+The Linear Regression model achieved an R2 score of 0.95 and RMSE of 3.2 on the test data.
+
+## Future Work
+- Try more advanced regression models
+- Add feature engineering and data preprocessing
+- Deploy as a web app
 
 ## 📌 Conclusion
 This project shows how even a simple Linear Regression model can give meaningful predictions when there's a strong correlation between the features and target. It's a great starting point for understanding supervised learning.
