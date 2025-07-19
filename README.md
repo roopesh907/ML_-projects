@@ -1,55 +1,32 @@
 # 🎯 Student Score Predictor
 
-A simple machine learning project that predicts student marks based on study hours using Linear Regression.
+This project predicts a student's exam score based on the number of hours they studied, using a simple Linear Regression model.
 
-## 📌 Project Description
+## 📊 Dataset
+- A small dataset of 25 samples.
+- Feature: `Hours Studied`
+- Target: `Scores Achieved`
 
-This project is built using Python and scikit-learn. It demonstrates how to train a linear regression model to predict student scores based on the number of hours studied. The model is trained and tested on a sample dataset with high accuracy.
+## 💡 Project Workflow
+1. Data loading and preprocessing
+2. Data visualization (scatter plot)
+3. Model training using scikit-learn
+4. Model evaluation (MAE)
+5. Predicting scores for custom input
 
-## 🚀 Features
+## 🔍 Sample Prediction
+For 9.25 hours studied, the predicted score is **~92.90**.
 
-- Accepts user input: Study hours
-- Predicts score using a trained `.pkl` model
-- Evaluates model with Mean Squared Error and R² Score
-- Visualizes data and regression line using matplotlib
-
-## 📊 Tech Stack
-
-- Python 🐍
+## ⚙️ Technologies Used
+- Python
 - Pandas
-- NumPy
 - Matplotlib
 - Scikit-learn
-- Google Colab
+- Jupyter Notebook
 
-## 🛠️ How to Run
+## 📌 Conclusion
+This project shows how even a simple Linear Regression model can give meaningful predictions when there's a strong correlation between the features and target. It's a great starting point for understanding supervised learning.
 
-1. Clone the repo or open the `.ipynb` file in Google Colab
-2. Run all cells step-by-step
-3. Enter custom input to predict score
-4. Evaluate the model metrics at the end
+---
 
-## 📁 Files
-
-- `Student_score_predictor.ipynb` – Main notebook
-- `student_score_model.pkl` – Saved trained model (can be used for deployment)
-
-## 🧠 Model Performance
-
-- **Mean Squared Error (MSE):** 25.37
-- **R² Score:** 0.92
-
-## 📸 Sample Output
-
-> Enter the number of study hours: **9.5**  
-> Predicted Score: **95.1**
-
-## 👨‍💻 Author
-
-- **Roopesh**  
-  Passionate about AI and Machine Learning  
-  [GitHub Profile](https://github.com/roopesh907)
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
+> Created with ❤️ by Roopesh
