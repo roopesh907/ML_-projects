@@ -1,0 +1,19 @@
+name: Test Notebook
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          pip install nbconvert
+          pip install -r requirements.txt
+      - name: Run Notebook
+        run: jupyter nbconvert --to notebook --execute Student_score_predictor.ipynb
