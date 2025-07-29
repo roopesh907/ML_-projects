@@ -1,1 +1,50 @@
-readme
+# 🧠 ML Projects by Roopesh
+
+Welcome to my Machine Learning Projects repository! This repo showcases my end-to-end work in building real-world ML models with proper preprocessing, model tuning, evaluation, and deployment-ready code.
+
+---
+
+## 📘 Projects Included
+
+### 1️⃣ Student Score Predictor
+
+- **Objective**: Predict the percentage score of a student based on the number of hours studied.
+- **Algorithm Used**: Linear Regression
+- **Dataset**: Supervised regression dataset (Hours vs Scores)
+- **Key Steps**:
+  - Data Cleaning and Visualization
+  - Train-Test Split
+  - Linear Regression Model Training
+  - Evaluation using R² Score and MAE
+- **Result**:
+  - Achieved high prediction accuracy on test data
+  - Plotted regression line and compared predicted vs actual scores
+
+### 2️⃣ Mental Health Status Classifier
+
+- **Objective**: Classify individuals’ mental health status based on questionnaire scores (e.g., PHQ-9, GAD-7, DASS-21).
+- **Algorithms Used**: SVM (with hyperparameter tuning using GridSearchCV)
+- **Dataset**: Mental health metrics with labeled status (0, 1, 2, 3)
+- **Key Steps**:
+  - Preprocessing: Scaling, cleaning, label encoding
+  - Model Selection: Tried Random Forest, then fine-tuned SVM
+  - Evaluation: Accuracy, F1-score, and Confusion Matrix
+- **Best Model**:
+  - **Tuned SVM**
+  - Accuracy: `92.0%`
+  - F1 Score: `91.89%`
+  - Saved model using `joblib` for deployment
+
+---
+
+## 🧰 Tools & Libraries
+
+- Python
+- pandas, NumPy
+- matplotlib, seaborn
+- scikit-learn
+- joblib
+- Google Colab
+
+---
+
